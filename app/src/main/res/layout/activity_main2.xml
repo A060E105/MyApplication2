@@ -20,7 +20,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/ed_drink"
         android:layout_width="315dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="22dp"
@@ -43,7 +43,7 @@
         android:text="甜度"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText"
+        app:layout_constraintTop_toBottomOf="@+id/ed_drink"
         tools:textColor="000" />
 
     <RadioGroup
@@ -138,7 +138,7 @@
     </RadioGroup>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btn_send"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
